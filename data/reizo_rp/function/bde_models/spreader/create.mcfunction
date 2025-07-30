@@ -1,0 +1,5 @@
+# Project created via BDEngine
+
+summon block_display ~-0.5 ~-0.5 ~-0.5 {Tags:["project","project_root"]}
+
+execute as @e[tag=project_root,type=block_display,distance=..1,limit=1,sort=nearest] at @s run summon block_display ~ ~ ~ {Passengers:[{id:"minecraft:block_display",block_state:{Name:"minecraft:hopper",Properties:{facing:"down"}},transformation:[0.7658891464f,0.5377327007f,0.3525015718f,0.188125f,0.1092493127f,0.431431038f,-0.8955064752f,1.445f,-0.6336232344f,0.7243692443f,0.2716814214f,0.75375f,0f,0f,0f,1f],Tags:["project_0"]},{id:"minecraft:block_display",block_state:{Name:"minecraft:iron_bars",Properties:{east:"false",north:"false",south:"false",west:"false"}},transformation:[0.2282437108f,0.1669778486f,0.0797784705f,0.4375f,-0.0019487521f,0.196286876f,-0.1458924579f,1f,-0.2134414693f,0.1767656934f,0.0866431553f,0.5f,0f,0f,0f,1f],Tags:["project_1"]},{id:"minecraft:block_display",block_state:{Name:"minecraft:oak_planks",Properties:{}},transformation:[0.0625f,0f,0f,1f,0f,1.125f,0f,0f,0f,0f,0.25f,0.6875f,0f,0f,0f,1f],Tags:["project_2"]}],Tags:["project"]}
